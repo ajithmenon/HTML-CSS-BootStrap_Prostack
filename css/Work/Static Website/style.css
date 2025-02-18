@@ -1,0 +1,9 @@
+/* for all anchor tag 'a' */
+a {
+    background-color: green;
+}
+
+/* for all 'a' tag with 'target' attribute seprate design */
+a[target] {
+    background-color: red;
+ }
