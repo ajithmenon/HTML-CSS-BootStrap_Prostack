@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            h1 {
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- inline > id > class > nearest tag selector -->
+        
+        <h1 id=label_1 class="head_1" style="background-color: blueviolet;"> Software Developer </h1> 
+        <!-- we have id, class, inline, internal and external  ->  INLINE : INLINE have highest priority  -->
+
+
+        <h1 id=label_1 class="head_1"> MERN Developer </h1>
+        <!-- we have id, class, internal and external  ->  ID selector : after inline - ID have more priority  -->
+
+
+        <h1 class="head_1"> React Developer </h1>
+        <!-- we have class, internal and external  ->  CLASS selector  : after id - CLASS have more priority  -->
+
+
+        <h1> Javascript Developer </h1>
+        <h2> HTML Developer </h2>
+        <!-- we have internal and external  ->  internal selector  : after class - nearest tag selector have priority  -->
+
+    </body>
+</html>
