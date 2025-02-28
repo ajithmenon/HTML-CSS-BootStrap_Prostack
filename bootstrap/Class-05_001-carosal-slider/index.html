@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootStrap_styles.css">
+        
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+      
+
+        <style>
+            .carousel-inner img {
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <a class="navbar-brand" href=""><img src="../image.png" width="100px"></a>
+            <div class="ml-auto">
+                <ul class="navbar-nav">
+                    <li><a class="nav-link" href="./index.html">Home</a></li>
+                    <li><a class="nav-link" href="./about.html">About</a></li>
+                    <li><a class="nav-link" href="./service.html">Service</a></li>
+                    <li><a class="nav-link" href="./employee.html">Employee</a></li>
+                    <li><a class="nav-link" href="./contact.html">Contact Us</a></li>
+                    <li><a class="nav-link" href="./login.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="carousel">
+                    <div class="carousal-inner">
+                        <div class="carousel-item active">
+                            <img src="../images/slider-1.jpg" >
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/slider-2.jpg" >
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/slider-3.jpg" >
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+    <script>
+        $('.carousel').carousel({interval: 500})
+    </script>
+
+</html>
